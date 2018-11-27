@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.copyButton)
     public void copy()
     {
+
         output.setText(input.getText().toString());
     }
 }
